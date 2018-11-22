@@ -10,8 +10,6 @@ module.exports = class Locator
   {
     return {
       cwd: null,
-      skillDir: null,
-      srcDir: null,
       assetDir: null,
       targetDir: null,
       exts: [],
@@ -21,9 +19,9 @@ module.exports = class Locator
 
   get path()
   {
-    let {cwd, skillDir, srcDir, assetDir, targetDir, exts, extPrefix} = this.pathOptions;
+    let {cwd, assetDir, targetDir, exts, extPrefix} = this.pathOptions;
     let [ext] = exts;
     let filename = [this.baseName, extPrefix, ext].filter(prop => (prop != undefined && prop != null)).join('.');
-    return [cwd, skillDir, srcDir, assetDir, targetDir, filename].join('/');
+    return [cwd, assetDir, targetDir, filename].join('/');
   }
 }

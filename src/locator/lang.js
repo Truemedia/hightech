@@ -10,7 +10,6 @@ module.exports = class LangLocator extends Locator
   get defaultPathOptions()
   {
     return {
-      srcDir: 'src',
       assetDir: 'locales',
       targetDir: this.defaultTargetDirectory,
       extPrefix: this.defaultTemplatePrefix

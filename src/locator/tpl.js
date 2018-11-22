@@ -10,7 +10,6 @@ module.exports = class TplLocator extends Locator
   get defaultPathOptions()
   {
     return {
-      srcDir: 'src',
       assetDir: 'tpl',
       targetDir: this.defaultTargetDirectory,
       extPrefix: this.defaultTemplatePrefix
