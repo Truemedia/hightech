@@ -1,8 +1,8 @@
 {
   "name": "hightech",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A framework for building skills/applications for bleeding edge tech devices",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/Truemedia/hightech/issues"
   },
-  "homepage": "https://github.com/Truemedia/hightech#readme"
+  "homepage": "https://github.com/Truemedia/hightech#readme",
+  "dependencies": {
+    "franc": "^4.0.0",
+    "gettext-parser": "^3.1.0",
+    "jstransformer": "^1.0.0",
+    "jstransformer-handlebars": "^1.1.0",
+    "node-gettext": "^2.0.0"
+  }
 }
