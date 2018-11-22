@@ -1,0 +1,26 @@
+{
+  "name": "hightech",
+  "version": "1.0.0",
+  "description": "A framework for building skills/applications for bleeding edge tech devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truemedia/hightech.git"
+  },
+  "keywords": [
+    "high",
+    "tech",
+    "framework",
+    "bleeding",
+    "edge"
+  ],
+  "author": "Wade Penistone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Truemedia/hightech/issues"
+  },
+  "homepage": "https://github.com/Truemedia/hightech#readme"
+}
